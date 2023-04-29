@@ -54,6 +54,6 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 	@Query(value = "SELECT id, CONCAT(firstname, ' ', lastname) AS name FROM users", nativeQuery = true)
    public  List<User> getByAllFirstNameLastName();
 	
-	//rahul branch
+	//rahul branch ....
 	
 }
